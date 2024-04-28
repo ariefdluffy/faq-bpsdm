@@ -21,7 +21,7 @@ class Accordion extends Component
         return view('livewire.accordion', [
             'questions' => question::latest()
             ->where('pertanyaan','like','%'. $this->search .'%')
-            ->paginate(5)
+            ->paginate(2),
         ]);
     }
 }
