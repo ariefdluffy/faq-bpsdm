@@ -23,7 +23,7 @@ class Accordion extends Component
     {
         return view('livewire.accordion', [
             'questions' => question::latest()
-            ->paginate(3)
+            ->paginate(5)
         ]);
         // return view('livewire.accordion', [
         //     'questions' => question::latest()

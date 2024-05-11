@@ -43,7 +43,8 @@
               />
             </a> --}}
           </div>
-          <div class="flex w-full items-center justify-between px-4">
+          <div class="flex w-full items-center justify-between px-6">
+            <br>
             <div>
               <button
                 id="navbarToggler"
@@ -61,12 +62,12 @@
               </button>
               <nav
                 id="navbarCollapse"
-                class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6"
+                class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-grey py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6"
               >
-                {{-- <ul class="blcok lg:flex 2xl:ml-20">
+                <ul class="blcok lg:flex 2xl:ml-20">
                   <li class="group relative">
                     <a
-                      href="#home"
+                      href="https://bpsdm.kaltimprov.go.id/v2" target="_blank"
                       class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
                     >
                       Home
@@ -74,13 +75,13 @@
                   </li>
                   <li class="group relative">
                     <a
-                      href="https://bpsdm.kaltimprov.go.id/v2"
+                      href="https://simpel.kaltimprov.go.id/jadwal" target="_blank"
                       class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
                     >
-                      About
+                      Jadwal
                     </a>
                   </li>
-                </ul> --}}
+                </ul>
               </nav>
             </div>
 
@@ -4473,7 +4474,7 @@
                   </svg>
                 </a>
                 <a
-                  href="javascript:void(0)"
+                  href="https://www.instagram.com/bpsdmkaltim/" target="_blank"
                   class="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
