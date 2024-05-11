@@ -41,7 +41,8 @@ class QuestionResource extends Resource
                 TextColumn::make('pertanyaan')
                 ->searchable(),
                 TextColumn::make('jawaban')
-                ->searchable(),
+                ->searchable()
+                ->width(400),
             ])
             ->filters([
                 //
