@@ -21,14 +21,14 @@ class Accordion extends Component
     // }
     public function render()
     {
-        return view('livewire.accordion', [
-            'questions' => question::latest()
-            ->paginate(5)
-        ]);
         // return view('livewire.accordion', [
         //     'questions' => question::latest()
-        //     ->where('pertanyaan','like','%'. $this->search .'%')
-        //     ->paginate(3),
+        //     ->get()
         // ]);
+        return view('livewire.accordion', [
+            'questions' => question::latest()
+            ->where('pertanyaan','like','%'. $this->search .'%')
+            ->get(),
+        ]);
     }
 }

@@ -17,6 +17,8 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
+use function Livewire\wrap;
+
 class QuestionResource extends Resource
 {
     protected static ?string $model = Question::class;
@@ -42,7 +44,7 @@ class QuestionResource extends Resource
                 ->searchable(),
                 TextColumn::make('jawaban')
                 ->searchable()
-                ->width(400),
+                ->extraAttributes(['style'=>'max-width:30%']),
             ])
             ->filters([
                 //

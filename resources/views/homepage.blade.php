@@ -62,7 +62,7 @@
               </button>
               <nav
                 id="navbarCollapse"
-                class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-grey py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6"
+                class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-grey py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6"
               >
                 <ul class="blcok lg:flex 2xl:ml-20">
                   <li class="group relative">
@@ -111,6 +111,7 @@
               <p
                 class="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]"
               >
+              Orientasi PPPK Kurikulum 2 <br>
               BPSDM Provinsi Kalimantan Timur
               </p>
 
@@ -1281,7 +1282,7 @@
       <div class="container">
         <div class="-mx-4 flex flex-wrap">
           <div class="w-full px-4">
-              <livewire:accordion />
+              <livewire:accordion search="" wire:ignore.self />
           </div>
         </div>
         {{-- <div class="-mx-4 flex flex-wrap">
@@ -3125,7 +3126,7 @@
           </div>
         </div>
         <div class="-mx-4 flex flex-wrap justify-center">
-          <div class="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
+          <div class="px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
             <div
               class="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none"
             >
@@ -3370,7 +3371,7 @@
                 <p class="mb-5 text-sm text-body-color dark:text-dark-6">
                   Pengadministrasi Pelatihan
                 </p>
-                <div class="flex items-center justify-center gap-5">
+                {{-- <div class="flex items-center justify-center gap-5">
                   <a
                     href="javascript:void(0)"
                     class="text-dark-6 hover:text-primary"
@@ -3433,11 +3434,11 @@
                       />
                     </svg>
                   </a>
-                </div>
+                </div> --}}
               </div>
             </div>
           </div>
-          <div class="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
+          <div class="px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
             <div
               class="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none"
             >
@@ -3571,10 +3572,10 @@
                 >
                   Miftahul Arif
                 </h4>
-                <p class="mb-5 text-sm text-body-color dark:text-dark-6">
+                <p class="mb-2 text-sm text-body-color dark:text-dark-6">
                   Pengadministrasi Pelatihan
                 </p>
-                <div class="flex items-center justify-center gap-5">
+                {{-- <div class="flex items-center justify-center gap-5">
                   <a
                     href="javascript:void(0)"
                     class="text-dark-6 hover:text-primary"
@@ -3637,11 +3638,11 @@
                       />
                     </svg>
                   </a>
-                </div>
+                </div> --}}
               </div>
             </div>
           </div>
-          <div class="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
+          <div class="px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
             <div
               class="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none"
             >
@@ -3778,7 +3779,7 @@
                 <p class="mb-5 text-sm text-body-color dark:text-dark-6">
                   Wisydaiswara Ahli Pertama
                 </p>
-                <div class="flex items-center justify-center gap-5">
+                {{-- <div class="flex items-center justify-center gap-5">
                   <a
                     href="javascript:void(0)"
                     class="text-dark-6 hover:text-primary"
@@ -3841,11 +3842,11 @@
                       />
                     </svg>
                   </a>
-                </div>
+                </div> --}}
               </div>
             </div>
           </div>
-          <div class="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
+          <div class="px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
             <div
               class="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none"
             >
@@ -3982,7 +3983,7 @@
                 <p class="mb-5 text-sm text-body-color dark:text-dark-6">
                   Analis Pengembangan Kompetensi Ahli Pertama
                 </p>
-                <div class="flex items-center justify-center gap-5">
+                {{-- <div class="flex items-center justify-center gap-5">
                   <a
                     href="javascript:void(0)"
                     class="text-dark-6 hover:text-primary"
@@ -4045,7 +4046,7 @@
                       />
                     </svg>
                   </a>
-                </div>
+                </div> --}}
               </div>
             </div>
           </div>
@@ -5041,7 +5042,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script> --}}
 
     <script src="./assets/js/swiper-bundle.min.js"></script>
-    <script src="./assets/js/main.js"></script>
+    {{-- <script src="./assets/js/main.js"></script> --}}
     {{-- <script>
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".ud-menu-scroll");
