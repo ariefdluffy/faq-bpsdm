@@ -3116,11 +3116,10 @@
               <h2
                 class="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]"
               >
-                Our Creative Team
+                Tim PKKP
               </h2>
               <p class="text-base text-body-color dark:text-dark-6">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Pengembangan Kompetensi Manajerial dan Fungsional <br>BPSDM Provinsi Kalimantan Timur
               </p>
             </div>
           </div>
